@@ -1,0 +1,32 @@
+table{
+    border-collapse: collapse;
+    width: 70%;
+    margin-bottom: 5px;
+}
+table td:first-child{
+    width: 50px;
+}
+
+table td:last-child{
+    width: 70px;
+}
+
+tr, th, td{
+    background: hsla(0, 0%, 0%, 0);
+    border: solid dimgray 2px;
+}
+tbody tr:nth-child(even){
+    background: rgb(200, 220, 255);
+}
+#filter{
+    width: 70%;
+}
+#search-bar{
+    width: 30%;
+}
+#page-num{
+    display: inline;
+}
+#table-header{
+    background: aqua;
+}
